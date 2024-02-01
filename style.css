@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    margin: 0;
+}
+
+ul>li>a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #444;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-variation-settings:"slnt" 0;
+}
+
+#home > a{
+    border-bottom: 5px solid #178C8C;
+    border-radius: 0.125rem;
+}
+
+#home, #login{
+    margin-left: 5%;
+}
+
+#bg-img{
+    position: fixed;
+    z-index: -1;
+}
+
+#visit_courses{
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.courses{
+    background-color: #0E8585;
+    width: fit-content;
+    padding: 1.31rem 1.88rem;
+    border-radius: 0.625rem;
+    border: 1px solid #A0A0A0;
+    margin-left: 50%;
+}
+
+.about{
+    color:#007E7E;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    width: 43rem;
+    text-transform: capitalize;
+    margin-left: 30%;
+}
+
+#filter{
+    border: none;
+    width:95%;
+    font-family: "Inter", sans-serif;
+    font-size: 26;
+    font-weight: bold;
+    color: #125A5A;
+    outline: none;
+    background: none;
+}
+
+#filter::placeholder{
+    color: #125A5A;
+    opacity: .25;
+}
+
+.filter_container{
+    display: flex;
+    border: solid #339C9C 2px;
+    border-radius: 0.9375rem;
+    width: 50.9rem;
+    height: 2.56rem;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.fa-magnifying-glass{
+    color: #2C7575;
+    opacity: 0.5;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logo > a{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 2.19rem;
+    flex-shrink: 0;
+    background: linear-gradient(to bottom, #17acac 53%, #000);
+    color: transparent !important;
+    background-clip: text;
+}
+
+nav{
+    padding: 0 3.68rem;
+}
+
+#login > a{
+    text-decoration: underline; 
+    color: #2c7575;
+}
+
+#register > a{
+    display: inline-flex;
+    width: 5.2rem;
+    height: 1.63rem;
+    background-color: #0e8585;
+    color: white;
+    border-radius: 0.625rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart > a{
+    color: #0e8585;
+}
+
+
+.footer_div{
+    display:flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 6.69rem;
+    padding: 0;
+    align-items: center;
+    background-color: #fff;
+    top: 200px;
+}
