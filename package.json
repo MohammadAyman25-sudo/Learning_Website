@@ -1,0 +1,10 @@
+{
+  "name": "coursemania",
+  "version": "1.0.0",
+  "description": "an online courses website for e-learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx live-server"
+  },
+  "license": "MIT"
+}

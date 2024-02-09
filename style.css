@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 
 body {
   margin: 0;
@@ -103,16 +105,6 @@ nav > ul {
   align-items: center;
 }
 
-#logo > a {
-  font-size: 40px;
-  font-weight: 900;
-  margin-bottom: 2.19rem;
-  flex-shrink: 0;
-  background: linear-gradient(to bottom, #17acac 53%, #000);
-  color: transparent !important;
-  background-clip: text;
-}
-
 nav {
   padding: 0 3.68rem;
 }
@@ -147,5 +139,78 @@ nav {
   padding: 0;
   align-items: center;
   background-color: #fff;
-  top: 211px;
+  top: 13.125rem;
+  box-shadow: 0.125rem 0.125rem 0.9375rem #888;
+}
+
+.filter-title {
+  background-color: #fff;
+  height: 6rem;
+  position: relative;
+  top: 11.5rem;
+  padding-top: 0.5rem;
+  padding-left: 6rem;
+  z-index: -1;
+}
+
+.filter-title > h2 {
+  font-family: "Inria Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #004949;
+}
+
+.drop > p {
+  display: inline;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #178c8c;
+}
+
+.filter {
+  display: flex;
+  position: relative;
+  top: 11.5rem;
+  background-color: #fff;
+  gap: 1.5rem;
+  justify-content: end;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+label[for="paid"],
+label[for="free"] {
+  font-family: "Istok Web", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #0e8585;
+}
+#paid,
+#free {
+  outline: none;
+}
+
+.sort > p {
+  text-transform: capitalize;
+  color: #184b4b;
+  display: inline;
+  font-family: "Istok Web", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.select {
+  display: inline;
+}
+
+.select > p {
+  text-transform: capitalize;
+  color: #178c8c;
+  font-family: "Istok Web", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline;
 }
